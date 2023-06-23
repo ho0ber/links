@@ -44,6 +44,12 @@
     </div>
   % endfor
 
+  <footer>
+    <div class="footer">
+      Last updated: ${metadata.last_updated}
+    </div>
+  </footer>
+
 </body>
  
 </html>

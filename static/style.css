@@ -70,6 +70,17 @@ body {
     max-width: 500px;
 }
 
+.footer {
+    font-size: 16px;
+    color: var(--textColor);
+    font-style: italic;
+    text-align: center;
+    margin: 27px auto;
+    margin-top: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
 .profilePicture img {
     position: relative;
     display: block;
