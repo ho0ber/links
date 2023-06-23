@@ -27,18 +27,21 @@ links:
       - text: Mastodon
         icon: fa-brands fa-mastodon
         href: https://mas.to/@ho0ber
-      - text: Instagram
-        icon: fa-brands fa-instagram
-        href: https://www.instagram.com/ho0ber/
       - text: Facebook
         icon: fa-brands fa-facebook
         href: https://www.facebook.com/ho0ber
-      - text: Tiktok
+      - text: TikTok
         icon: fa-brands fa-tiktok
         href: https://www.tiktok.com/@ho0ber
       - text: YouTube
         icon: fa-brands fa-youtube
         href: https://youtube.com/ho0ber
+      - text: Instagram
+        icon: fa-brands fa-instagram
+        href: https://www.instagram.com/ho0ber/
+      - text: Flickr
+        icon: fa-brands fa-flickr
+        href: https://www.flickr.com/photos/ho0ber
       - text: LinkedIn
         icon: fa-brands fa-linkedin
         href: http://www.linkedin.com/in/samuelcolburn
@@ -66,3 +69,6 @@ links:
       - text: GitHub
         icon: fa-brands fa-github
         href: https://github.com/ho0ber
+      - text: Fork this project!
+        icon: fa-solid fa-code-fork
+        href: https://github.com/ho0ber/lazylinks
