@@ -79,6 +79,8 @@ body {
     margin-top: 10px;
     width: 90%;
     max-width: 500px;
+    padding-bottom: 20px;
+    padding-top: 50px;
 }
 
 .profilePicture img {
