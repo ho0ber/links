@@ -1,0 +1,66 @@
+config:
+  title: links
+  name: Sam
+  description: Software engineer, gamer, tech-enthusiast, musician, audio nerd, thespian, ham, fisherman, dork
+  avatar: skey_bg.jpeg
+
+links:
+  - title: Sites
+    links:
+    - text: Blog
+      icon: fa-solid fa-blog
+      href: https://blog.sam.codes
+    - text: Website
+      icon: fa-solid fa-terminal
+      href: https://sam.codes
+    - text: Old Blog
+      icon: fa-solid fa-blog
+      href: https://hoob.dev
+
+  - title: Socials
+    links:
+    - text: Bluesky
+      icon: fa-solid fa-cloud
+      href: https://bsky.app/profile/sam.codes
+    - text: Mastodon
+      icon: fa-brands fa-mastodon
+      href: https://mas.to/@ho0ber
+    - text: Instagram
+      icon: fa-brands fa-instagram
+      href: https://www.instagram.com/ho0ber/
+    - text: Facebook
+      icon: fa-brands fa-facebook
+      href: https://www.facebook.com/ho0ber
+    - text: Tiktok
+      icon: fa-brands fa-tiktok
+      href: https://www.tiktok.com/@ho0ber
+    - text: YouTube
+      icon: fa-brands fa-youtube
+      href: https://youtube.com/ho0ber
+    - text: LinkedIn
+      icon: fa-brands fa-linkedin
+      href: http://www.linkedin.com/in/samuelcolburn
+    - text: QRZ
+      icon: fa-solid fa-radio
+      href: https://www.qrz.com/db/w1sdc
+
+  - title: Music
+    links:
+    - text: Spotify
+      icon: fa-brands fa-spotify
+      href: https://open.spotify.com/user/1215278444?si=e4d8a19125954d53
+    - text: SoundCloud
+      icon: fa-brands fa-soundcloud
+      href: https://soundcloud.com/samuel-hoober-colburn
+
+  - title: Gaming
+    links:
+    - text: "Discord: Hoober"
+      icon: fa-brands fa-discord
+      href: https://discordapp.com/users/93884048014852096
+
+  - title: Code
+    links:
+    - text: GitHub
+      icon: fa-brands fa-github
+      href: https://github.com/ho0ber

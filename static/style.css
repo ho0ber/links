@@ -1,0 +1,127 @@
+/*
+Borrowed and modified from https://github.com/alisa-yar/linktree-template/tree/main
+Thanks, Alisa!
+
+
+MIT License
+
+Copyright (c) 2022 alisayar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+:root {
+    --textColor: #FFFFFF;
+    --font: 'Karla', sans-serif;
+}
+
+html {
+    margin: 0;
+    height: 100%;
+    
+    /* background-image: url('garbage.png'); */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('garbage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: var(--font);
+    color: var(--textColor);
+    text-shadow: #000 1px 0 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    min-height: 100%;
+}
+
+.description {
+    color: var(--textColor);
+    text-align: center;
+    margin: 27px auto;
+    margin-top: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.profilePicture img {
+    position: relative;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 130px;
+    height: 130px;
+}
+
+.userName {
+    color: var(--textColor);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+}
+
+.sectionTitle {
+    color: var(--textColor);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    margin-bottom: -10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed;
+}
+
+.links {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
+
+.link {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: var(--textColor);
+    border: solid var(--textColor) 2px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px; 
+    text-decoration: none;
+}
