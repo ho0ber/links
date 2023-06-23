@@ -6,6 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${config.title}</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    html {
+        background: linear-gradient(
+          rgba(0, 0, 0, ${config.background_opacity}),
+          rgba(0, 0, 0, ${config.background_opacity})),
+          url('${config.background}'
+        );
+    }
+  </style>
   <script src="https://kit.fontawesome.com/6bee25835f.js" crossorigin="anonymous"></script>
   <link rel="icon" href="${config.avatar}" type="image/x-icon" />
 </head>
