@@ -60,6 +60,7 @@ body {
 }
 
 .description {
+    font-size: 18px;
     color: var(--textColor);
     text-align: center;
     margin: 27px auto;
@@ -80,7 +81,7 @@ body {
 
 .userName {
     color: var(--textColor);
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1.25;
     display: block;
@@ -91,7 +92,7 @@ body {
 
 .sectionTitle {
     color: var(--textColor);
-    font-size: 1rem;
+    font-size: 20px;
     font-weight: bold;
     line-height: 1.25;
     display: block;
@@ -116,7 +117,7 @@ body {
     color: var(--textColor);
     border: solid var(--textColor) 2px;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 18px;
     text-align: center;
     display: block;
     margin-left: 10px;
