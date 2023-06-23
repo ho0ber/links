@@ -38,7 +38,7 @@ html {
     height: 100%;
     
     /* background-image: url('garbage.png'); */
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('garbage.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('garbage.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -113,7 +113,7 @@ body {
 
 .link {
     position: relative;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     color: var(--textColor);
     border: solid var(--textColor) 2px;
     border-radius: 10px;
