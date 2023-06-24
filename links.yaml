@@ -66,6 +66,10 @@ links:
       - text: "Discord: Hoober"
         icon: fa-brands fa-discord
         href: https://discordapp.com/users/93884048014852096
+        copy: Hoober
+      - text: "Steam"
+        icon: fa-brands fa-steam
+        href: https://steamcommunity.com/id/Ho0ber/
       - text: "Xbox Gamertag"
         icon: fa-brands fa-xbox
         copy: TheBeefThief

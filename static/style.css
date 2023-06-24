@@ -182,3 +182,11 @@ body {
     padding: 10px; 
     text-decoration: none;
 }
+
+.link a {
+    position: relative;
+    color: var(--textColor);
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+}
