@@ -44,7 +44,7 @@
             <i class="${link.icon}"></i> ${link.text}
             <div class="tooltip float-right">
               <span class="" href="#" onclick="copytext('${link.copy}','${link._id}')" onmouseout="outFunc('${link._id}')">
-                <span class="tooltiptext" id="${link._id}">Copy to clipboard</span>
+                <span class="tooltiptext-left" id="${link._id}">Copy to clipboard</span>
                 <i class="fa-solid fa-copy"></i>
               </span>
             </div>
