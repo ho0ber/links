@@ -41,6 +41,9 @@
       % for link in section.links:
         % if 'href' in link and 'copy' in link:
           <a class="link" href="${link.href}" target="_blank">
+            <div class="tooltip float-left hidden">
+              <i class="fa-solid fa-copy"></i>
+            </div>
             <i class="${link.icon}"></i> ${link.text}
             <div class="tooltip float-right">
               <span class="" href="#" onclick="copytext('${link.copy}','${link._id}')" onmouseout="outFunc('${link._id}')">

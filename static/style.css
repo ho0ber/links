@@ -227,3 +227,11 @@ body {
 .float-right {
     float: right;
 }
+
+.float-left {
+    float: left;
+}
+
+.hidden {
+    visibility: hidden;
+}
