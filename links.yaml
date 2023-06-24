@@ -5,6 +5,7 @@ config:
   avatar: skey_bg.jpeg
   background: garbage.jpg
   background_opacity: 0.7
+  qrcode: qrcode_white.png
 
 links:
   - title: Sites

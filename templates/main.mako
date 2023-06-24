@@ -69,9 +69,10 @@
   % endfor
 
   <footer>
-    <div class="footer">
-      Last updated: ${metadata.last_updated}
-    </div>
+    % if 'qrcode' in config:
+    <div class="qrcode"><img src="${config.qrcode}" /></div>
+    % endif
+    <div class="footer">Last updated: ${metadata.last_updated}</div>
   </footer>
 
 </body>
