@@ -39,6 +39,9 @@ links:
       - text: QRZ
         icon: fa-solid fa-radio
         href: https://www.qrz.com/db/w1sdc
+      - text: Fishbrain
+        icon: fa-solid fa-fish
+        href: https://fishbrain.com/anglers/ho0ber
 
   - title: Gaming
     links:
