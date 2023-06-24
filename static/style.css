@@ -231,6 +231,14 @@ body {
     text-decoration: none;
 }
 
+.info {
+    position: relative;
+    color: var(--textColor);
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
 .float-right {
     float: right;
 }
@@ -241,4 +249,15 @@ body {
 
 .hidden {
     visibility: hidden;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 90%;
+}
+
+.min {
+    width: 0%;
+    vertical-align: middle;
+    height: 100%;
 }

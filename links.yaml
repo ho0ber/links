@@ -17,6 +17,28 @@ links:
       - text: Website
         icon: fa-solid fa-terminal
         href: https://sam.codes
+      - text: Disney Podcast
+        icon: fa-solid fa-podcast
+        href: https://boredandsassy.com
+
+  - title: Projects
+    links:
+      - text: WatIP
+        icon: fa-solid fa-globe
+        href: https://watip.hoob.io
+        info: ipinfo-like tool, but basic
+      - text: CandyCode
+        icon: fa-solid fa-candy-cane
+        href: https://candy.hoob.io
+        info: Simple tool for food packaging codes
+      - text: Commuter.fail
+        icon: fa-solid fa-train
+        href: https://crail.hoob.io
+        info: South Station platform number tool
+      - text: HackWar
+        icon: fa-solid fa-terminal
+        href: https://hackwar.net
+        info: Abandoned competitive "hacking" game
 
   - title: Socials
     links:
