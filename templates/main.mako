@@ -8,11 +8,13 @@
   <link rel="stylesheet" href="style.css">
   <style>
     html {
-        background: linear-gradient(
-          rgba(0, 0, 0, ${config.background_opacity}),
-          rgba(0, 0, 0, ${config.background_opacity})),
-          url('${config.background}'
-        );
+        background:
+          linear-gradient(
+            rgba(0, 0, 0, ${config.background_opacity}),
+            rgba(0, 0, 0, ${config.background_opacity})
+          ),
+          url('${config.background}'),
+          rgba(0,0,0);
     }
   </style>
   <script src="https://kit.fontawesome.com/6bee25835f.js" crossorigin="anonymous"></script>
@@ -37,9 +39,18 @@
     </div>
     <div class="links">
       % for link in section.links:
+        % if 'href' in link:
         <a class="link" href="${link.href}" target="_blank">
           <i class="${link.icon}"></i> ${link.text}
         </a>
+        % elif 'copy' in link:
+        <div class="tooltip block">
+        <a class="link" href="#" onclick="copytext('${link.copy}','${link._id}')" onmouseout="outFunc('${link._id}')">
+          <span class="tooltiptext" id="${link._id}">Copy to clipboard</span>
+          <i class="${link.icon}"></i> ${link.text}
+        </a>
+        </div>
+        % endif
       % endfor
     </div>
   % endfor
@@ -51,5 +62,18 @@
   </footer>
 
 </body>
- 
+<script>
+  function copytext(val, linkid) {
+    event.preventDefault();
+    console.log(val);
+    navigator.clipboard.writeText(val);
+    var tooltip = document.getElementById(linkid);
+    tooltip.innerHTML = "Copied: " + val;
+  }
+
+  function outFunc(linkid) {
+    var tooltip = document.getElementById(linkid);
+    tooltip.innerHTML = "Copy to clipboard";
+  }
+</script>
 </html>

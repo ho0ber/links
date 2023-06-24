@@ -42,6 +42,9 @@ links:
       - text: Flickr
         icon: fa-brands fa-flickr
         href: https://www.flickr.com/photos/ho0ber
+      - text: Goodreads
+        icon: fa-brands fa-goodreads
+        href: https://www.goodreads.com/user/show/22635478-samuel-colburn
       - text: LinkedIn
         icon: fa-brands fa-linkedin
         href: http://www.linkedin.com/in/samuelcolburn
@@ -63,6 +66,9 @@ links:
       - text: "Discord: Hoober"
         icon: fa-brands fa-discord
         href: https://discordapp.com/users/93884048014852096
+      - text: "Xbox Gamertag"
+        icon: fa-brands fa-xbox
+        copy: TheBeefThief
 
   - title: Code
     links:
