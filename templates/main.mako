@@ -3,7 +3,9 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name='robots' content='none' />
+  % if 'robots' in config:
+    <meta name='robots' content='${config.robots}' />
+  % endif
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${config.title}</title>
   <link rel="stylesheet" href="style.css">

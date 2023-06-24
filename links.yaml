@@ -6,6 +6,7 @@ config:
   background: garbage.jpg
   background_opacity: 0.7
   qrcode: qrcode_white.png
+  robots: none
 
 links:
   - title: Sites
