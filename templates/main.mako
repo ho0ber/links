@@ -21,7 +21,7 @@
     }
   </style>
   <script src="https://kit.fontawesome.com/6bee25835f.js" crossorigin="anonymous"></script>
-  <link rel="icon" href="${config.avatar}" type="image/x-icon" />
+  <link rel="shortcut icon" href="favicon.ico" />
 </head>
 
 <body>
