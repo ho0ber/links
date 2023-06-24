@@ -103,6 +103,9 @@ links:
 
   - title: Deprecated & Defunct
     links:
+      - text: Twitter
+        icon: fa-brands fa-twitter
+        href: https://twitter.com/ho0ber
       - text: Old Blog
         icon: fa-solid fa-blog
         href: https://hoob.dev
