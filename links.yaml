@@ -3,7 +3,7 @@ config:
   name: Sam
   description: Software engineer, gamer, tech-enthusiast, musician, audio nerd, thespian, ham, fisherman, dork
   avatar: skey_bg.jpeg
-  background: garbage.png
+  background: garbage.jpg
   background_opacity: 0.7
 
 links:
