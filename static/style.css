@@ -190,7 +190,7 @@ body {
 }
 
 .links {
-    max-width: 675px;
+    max-width: 510px;
     width: auto;
     display: block;
     margin: 27px auto;
@@ -209,6 +209,23 @@ body {
     font-size: 18px;
     text-align: center;
     display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px; 
+    text-decoration: none;
+}
+
+.link-half {
+    width: 209px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--textColor);
+    border: solid var(--textColor) 2px;
+    border-radius: 10px;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;

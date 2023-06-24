@@ -15,42 +15,45 @@ links:
       - text: Website
         icon: fa-solid fa-terminal
         href: https://sam.codes
-      - text: Old Blog
-        icon: fa-solid fa-blog
-        href: https://hoob.dev
 
   - title: Socials
     links:
       - text: Bluesky
         icon: fa-solid fa-cloud
         href: https://bsky.app/profile/sam.codes
+        size: half
       - text: Mastodon
         icon: fa-brands fa-mastodon
         href: https://mas.to/@ho0ber
+        size: half
       - text: Facebook
         icon: fa-brands fa-facebook
         href: https://www.facebook.com/ho0ber
-      - text: TikTok
-        icon: fa-brands fa-tiktok
-        href: https://www.tiktok.com/@ho0ber
-      - text: YouTube
-        icon: fa-brands fa-youtube
-        href: https://youtube.com/ho0ber
-      - text: Instagram
-        icon: fa-brands fa-instagram
-        href: https://www.instagram.com/ho0ber/
-      - text: Flickr
-        icon: fa-brands fa-flickr
-        href: https://www.flickr.com/photos/ho0ber
-      - text: Goodreads
-        icon: fa-brands fa-goodreads
-        href: https://www.goodreads.com/user/show/22635478-samuel-colburn
+        size: half
       - text: LinkedIn
         icon: fa-brands fa-linkedin
         href: http://www.linkedin.com/in/samuelcolburn
+        size: half
+      - text: TikTok
+        icon: fa-brands fa-tiktok
+        href: https://www.tiktok.com/@ho0ber
+        size: half
+      - text: YouTube
+        icon: fa-brands fa-youtube
+        href: https://youtube.com/ho0ber
+        size: half
       - text: QRZ
         icon: fa-solid fa-radio
         href: https://www.qrz.com/db/w1sdc
+
+  - title: Code
+    links:
+      - text: GitHub
+        icon: fa-brands fa-github
+        href: https://github.com/ho0ber
+      - text: Fork this project!
+        icon: fa-solid fa-code-fork
+        href: https://github.com/ho0ber/lazylinks
 
   - title: Music
     links:
@@ -77,11 +80,18 @@ links:
         icon: fa-solid fa-gamepad
         copy: SW-2168-2116-3814
 
-  - title: Code
+
+  - title: Deprecated
     links:
-      - text: GitHub
-        icon: fa-brands fa-github
-        href: https://github.com/ho0ber
-      - text: Fork this project!
-        icon: fa-solid fa-code-fork
-        href: https://github.com/ho0ber/lazylinks
+      - text: Old Blog
+        icon: fa-solid fa-blog
+        href: https://hoob.dev
+      - text: Instagram
+        icon: fa-brands fa-instagram
+        href: https://www.instagram.com/ho0ber/
+      - text: Flickr
+        icon: fa-brands fa-flickr
+        href: https://www.flickr.com/photos/ho0ber
+      - text: Goodreads
+        icon: fa-brands fa-goodreads
+        href: https://www.goodreads.com/user/show/22635478-samuel-colburn

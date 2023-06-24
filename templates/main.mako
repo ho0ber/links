@@ -53,7 +53,11 @@
             </div>
           </a>
         % elif 'href' in link:
+          % if 'size' in link:
+        <a class="link-${link.size}" href="${link.href}" target="_blank">
+          % else:
         <a class="link" href="${link.href}" target="_blank">
+          % endif
           <i class="${link.icon}"></i> ${link.text}
         </a>
         % elif 'copy' in link:
