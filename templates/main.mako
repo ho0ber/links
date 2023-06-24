@@ -37,7 +37,7 @@
     ${config.description}
   </div>
   % for section in links:
-    <div class="sectionTitle">
+    <div id="${section.title}" class="sectionTitle">
       ${section.title}
     </div>
     <div class="links">
