@@ -54,12 +54,14 @@
           </a>
         % elif 'href' in link:
           % if 'size' in link:
-        <a class="link-${link.size}" href="${link.href}" target="_blank">
-          % else:
-        <a class="link" href="${link.href}" target="_blank">
+            <div class="${link.size}">
           % endif
+        <a class="link" href="${link.href}" target="_blank">
           <i class="${link.icon}"></i> ${link.text}
         </a>
+        % if 'size' in link:
+          </div>
+        % endif
         % elif 'copy' in link:
         <div class="tooltip block">
         <a class="link" href="#" onclick="copytext('${link.copy}','${link._id}')" onmouseout="outFunc('${link._id}')">

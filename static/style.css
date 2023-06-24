@@ -201,6 +201,7 @@ body {
 }
 
 .link {
+    width: 100%;
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
     color: var(--textColor);
@@ -208,16 +209,18 @@ body {
     border-radius: 10px;
     font-size: 18px;
     text-align: center;
-    display: block;
+    display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
     padding: 10px; 
     text-decoration: none;
 }
-
+.half {
+    display: block;
+}
 .link-half {
-    width: 209px;
+    width: 40%;
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
     color: var(--textColor);
