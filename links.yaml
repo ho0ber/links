@@ -2,7 +2,7 @@ config:
   title: "Sam's Links"
   name: Samuel Colburn
   pronouns: he/him
-  pronunciation: name.ogg
+  pronunciation: name.mp3
   description: |
     Software engineer,
     gamer,
