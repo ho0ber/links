@@ -94,12 +94,15 @@ links:
 
   - title: Music
     links:
-      - text: Spotify
-        icon: fa-brands fa-spotify
-        href: https://open.spotify.com/user/1215278444?si=e4d8a19125954d53
       - text: SoundCloud
         icon: fa-brands fa-soundcloud
         href: https://soundcloud.com/samuel-hoober-colburn
+        info: "Some of the music I've made"
+      - text: Spotify
+        icon: fa-brands fa-spotify
+        href: https://open.spotify.com/user/1215278444?si=e4d8a19125954d53
+        info: Some of the music I listen to
+
 
   - title: Deprecated & Defunct
     links:
