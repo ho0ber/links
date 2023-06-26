@@ -21,7 +21,12 @@
     }
   </style>
   <script src="https://kit.fontawesome.com/6bee25835f.js" crossorigin="anonymous"></script>
-  <link rel="shortcut icon" href="favicon.ico" />
+  % if 'favicon' in config:
+  <link rel="shortcut icon" href="${config.favicon}" />
+  % endif
+  % if 'touchicon' in config: 
+  <link rel="apple-touch-icon" href="${config.touchicon}" sizes="120x120">
+  % endif
 </head>
 
 <body>
