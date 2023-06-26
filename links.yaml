@@ -1,7 +1,19 @@
 config:
-  title: links
-  name: Sam
-  description: Software engineer, gamer, tech-enthusiast, musician, audio nerd, thespian, ham, fisherman, dork
+  title: "Sam's Links"
+  name: Samuel Colburn
+  pronouns: he/him
+  pronunciation: name.ogg
+  description: |
+    Software engineer,
+    gamer,
+    tech-enthusiast,
+    musician,
+    audio nerd,
+    thespian,
+    ham,
+    fisherman,
+    birder,
+    dork
   avatar: skey_bg.jpeg
   background: garbage.jpg
   background_opacity: 0.7
@@ -103,21 +115,25 @@ links:
         href: https://open.spotify.com/user/1215278444?si=e4d8a19125954d53
         info: Some of the music I listen to
 
-
-  - title: Deprecated & Defunct
+  - title: Deprecated/Defunct/Deserted
     links:
       - text: Twitter
         icon: fa-brands fa-twitter
         href: https://twitter.com/ho0ber
+        info: Private; largely unused
       - text: Old Blog
         icon: fa-solid fa-blog
         href: https://hoob.dev
+        info: Migrated to current blog
       - text: Instagram
         icon: fa-brands fa-instagram
         href: https://www.instagram.com/ho0ber/
+        info: Largely unused
       - text: Flickr
         icon: fa-brands fa-flickr
         href: https://www.flickr.com/photos/ho0ber
+        info: Nothing new in many years
       - text: Goodreads
         icon: fa-brands fa-goodreads
         href: https://www.goodreads.com/user/show/22635478-samuel-colburn
+        info: Pending a project to import from audible

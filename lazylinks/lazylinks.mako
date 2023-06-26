@@ -31,8 +31,22 @@
  
   <div class="userName">
     ${config.name}
+    % if 'pronunciation' in config:
+    <i class="fa-solid fa-volume-high pointer pronunciation" onclick="playsound()"></i>
+    <audio id="audio" style="display:none" src="${config.pronunciation}" ></audio>
+    <script>
+      function playsound() {
+          var audio = document.getElementById("audio");
+          audio.play();
+      }
+    </script>
+    % endif
   </div>
-
+  % if 'pronouns' in config:
+  <div class="pronouns">
+    ${config.pronouns}
+  </div>
+  % endif
   <div class="description">
     ${config.description}
   </div>

@@ -141,6 +141,16 @@ body {
     max-width: 500px;
 }
 
+.pronouns {
+    font-size: 16px;
+    color: var(--textColor);
+    text-align: center;
+    margin: 27px auto;
+    margin-top: 3px;
+    width: 90%;
+    max-width: 500px;
+}
+
 .footer {
     font-size: 16px;
     color: var(--textColor);
@@ -260,4 +270,16 @@ body {
     width: 0%;
     vertical-align: middle;
     height: 100%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.pronunciation {
+    color: #bbb;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 6px;
+    font-size: 14px;
 }
