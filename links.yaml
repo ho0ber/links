@@ -80,6 +80,9 @@ links:
       - text: Fishbrain
         icon: fa-solid fa-fish
         href: https://fishbrain.com/anglers/ho0ber
+      - text: Telegram
+        icon: fa-brands fa-telegram
+        href: https://t.me/ho0ber
 
   - title: Gaming
     links:
