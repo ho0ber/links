@@ -1,5 +1,6 @@
 # lazylinks
 Linktree-style socials page for lazy people
+Live at [links.sam.codes](https://links.sam.codes)
 
 ## Example Usage
 `python lazylinks/lazylinks.py links.yaml`
