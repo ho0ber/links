@@ -35,6 +35,16 @@ links:
         icon: fa-solid fa-podcast
         href: https://boredandsassy.com
 
+  - title: Contact
+    links:
+      - text: Telegram
+        icon: fa-brands fa-telegram
+        href: https://t.me/ho0ber
+      - text: Email
+        icon: fa-solid fa-envelope
+        href: "mailto:samuel.colburn@gmail.com"
+        copy: "samuel.colburn@gmail.com"
+
   - title: Projects
     links:
       - text: WatIP
