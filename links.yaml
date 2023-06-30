@@ -152,3 +152,7 @@ links:
         icon: fa-brands fa-goodreads
         href: https://www.goodreads.com/user/show/22635478-samuel-colburn
         info: Pending a project to import from audible
+      - text: Letterboxd
+        icon: fa-solid fa-film
+        href: https://letterboxd.com/ho0ber/
+        info: Pending a backfill
