@@ -84,6 +84,9 @@ links:
       - text: LinkedIn
         icon: fa-brands fa-linkedin
         href: http://www.linkedin.com/in/samuelcolburn
+      - text: Goodreads
+        icon: fa-brands fa-goodreads
+        href: https://www.goodreads.com/user/show/22635478-samuel-colburn
       - text: QRZ
         icon: fa-solid fa-radio
         href: https://www.qrz.com/db/w1sdc
@@ -148,10 +151,6 @@ links:
         icon: fa-brands fa-flickr
         href: https://www.flickr.com/photos/ho0ber
         info: Nothing new in many years
-      - text: Goodreads
-        icon: fa-brands fa-goodreads
-        href: https://www.goodreads.com/user/show/22635478-samuel-colburn
-        info: Pending a project to import from audible
       - text: Letterboxd
         icon: fa-solid fa-film
         href: https://letterboxd.com/ho0ber/
