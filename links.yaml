@@ -155,3 +155,7 @@ links:
         icon: fa-solid fa-film
         href: https://letterboxd.com/ho0ber/
         info: Pending a backfill
+      - text: Simkl
+        icon: fa-solid fa-video
+        href: https://simkl.com/6219562
+        info: Still evaluating - TV/Movies/Anime scrobbler
