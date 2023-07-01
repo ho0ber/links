@@ -1,2 +1,1 @@
-Mako==1.2.4
-PyYAML==6.0
+lazylinks @ git+https://github.com/ho0ber/lazylinks@main

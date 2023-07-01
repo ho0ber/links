@@ -31,7 +31,7 @@ jobs:
       - name: Install Python Packages
         run: pip install -r requirements.txt
       - name: Generate Static Content
-        run: python lazylinks/lazylinks.py links.yaml
+        run: lazylinks links.yaml
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
