@@ -1,5 +1,5 @@
 # links
-Sam's links, using [ho0ber/lazylinks](https://github.com/ho0ber/lazylinks), a simple python package for generating links pages from YAML.
+Sam's links page, using [ho0ber/lazylinks](https://github.com/ho0ber/lazylinks), a simple python package for generating links pages from YAML.
 
 ### Live at [links.sam.codes](https://links.sam.codes)
 
