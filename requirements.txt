@@ -1,1 +1,1 @@
-lazylinks @ git+https://github.com/ho0ber/lazylinks@main
+lazylinks
