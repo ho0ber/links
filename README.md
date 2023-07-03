@@ -11,3 +11,5 @@ Simply fork this repo and modify, or:
 * run `lazylinks links.yaml`
 
 Also, see [deploy.yaml](.github/workflows/deploy.yaml) for an idea of how to deploy your static HTML.
+
+Full tutorial can be found [on my blog](https://blog.sam.codes/lazylinks-link-pages-for-lazy-people.html).
