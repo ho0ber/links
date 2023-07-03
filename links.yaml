@@ -120,7 +120,8 @@ links:
         href: https://github.com/ho0ber
       - text: Fork this project!
         icon: fa-solid fa-code-fork
-        href: https://github.com/ho0ber/lazylinks
+        href: https://github.com/ho0ber/links
+        info: See my blog for a tutorial
 
   - title: Music
     links:
