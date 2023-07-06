@@ -283,3 +283,8 @@ body {
     margin-top: 6px;
     font-size: 14px;
 }
+
+.flipped {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1) rotate(-40deg);
+}

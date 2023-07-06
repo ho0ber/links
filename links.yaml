@@ -74,6 +74,9 @@ links:
         icon: fa-brands fa-mastodon
         href: https://mas.to/@ho0ber
         more: rel="me"
+      - text: Threads
+        href: https://www.threads.net/@ho0ber
+        icon: fa-solid fa-at flipped
       - text: Facebook
         icon: fa-brands fa-facebook
         href: https://www.facebook.com/ho0ber
