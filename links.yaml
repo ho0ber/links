@@ -48,6 +48,10 @@ links:
 
   - title: Projects
     links:
+      - text: TelBox
+        icon: fa-solid fa-ethernet
+        href: http://telbox.net
+        info: A modern BBS built for retro hardware
       - text: WatIP
         icon: fa-solid fa-globe
         href: https://watip.hoob.io
