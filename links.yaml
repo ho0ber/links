@@ -88,9 +88,12 @@ links:
       - text: TikTok
         icon: fa-brands fa-tiktok
         href: https://www.tiktok.com/@ho0ber
-      - text: YouTube
+      - text: YouTube (Main)
         icon: fa-brands fa-youtube
         href: https://youtube.com/ho0ber
+      - text: YouTube (Retro Tech)
+        icon: fa-brands fa-youtube
+        href: https://www.youtube.com/@samdotcodes
       - text: LinkedIn
         icon: fa-brands fa-linkedin
         href: http://www.linkedin.com/in/samuelcolburn
