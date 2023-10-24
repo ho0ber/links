@@ -32,6 +32,9 @@ links:
       - text: Website
         icon: fa-solid fa-terminal
         href: https://sam.codes
+      - text: Sardine Sound
+        icon: fa-solid fa-speaker
+        href: https://sardinesound.com
       - text: Disney Podcast
         icon: fa-solid fa-podcast
         href: https://boredandsassy.com
