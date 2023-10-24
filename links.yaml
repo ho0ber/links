@@ -35,9 +35,11 @@ links:
       - text: Sardine Sound
         icon: fa-solid fa-fish-fins
         href: https://sardinesound.com
-      - text: Disney Podcast
+        info: Live audio services in southeastern MA
+      - text: Bored & Sassy
         icon: fa-solid fa-podcast
         href: https://boredandsassy.com
+        info: Disney podcast
 
   - title: Contact
     links:
