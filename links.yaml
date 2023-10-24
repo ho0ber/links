@@ -29,9 +29,11 @@ links:
       - text: Blog
         icon: fa-solid fa-blog
         href: https://blog.sam.codes
+        info: Various projects related to code, music, games, and more
       - text: Website
         icon: fa-solid fa-terminal
         href: https://sam.codes
+        info: Interactive informational website
       - text: Sardine Sound
         icon: fa-solid fa-fish-fins
         href: https://sardinesound.com
