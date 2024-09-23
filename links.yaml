@@ -72,10 +72,10 @@ links:
         icon: fa-solid fa-train
         href: https://commuter-fail.hoob.io
         info: South Station platform number tool
-      - text: HackWar
-        icon: fa-solid fa-terminal
-        href: https://hackwar.net
-        info: Abandoned competitive "hacking" game
+      # - text: HackWar
+      #   icon: fa-solid fa-terminal
+      #   href: https://hackwar.net
+      #   info: Abandoned competitive "hacking" game
 
   - title: Socials
     links:
