@@ -56,6 +56,10 @@ links:
 
   - title: Projects
     links:
+      - text: Crail
+        icon: fa-solid fa-train
+        href: https://crail.app
+        info: MBTA Commuter Rail platform number tool
       - text: TelBox
         icon: fa-solid fa-ethernet
         href: http://telbox.net
@@ -68,10 +72,6 @@ links:
         icon: fa-solid fa-candy-cane
         href: https://candy.hoob.io
         info: Simple tool for food packaging codes
-      - text: Commuter.fail
-        icon: fa-solid fa-train
-        href: https://commuter-fail.hoob.io
-        info: South Station platform number tool
       # - text: HackWar
       #   icon: fa-solid fa-terminal
       #   href: https://hackwar.net
